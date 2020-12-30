@@ -1,0 +1,33 @@
+{
+  "name": "rime-utils",
+  "version": "0.0.1",
+  "description": "Utilities for operating rime configurations and dictionaries",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js",
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nk2028/rime-utils.git"
+  },
+  "keywords": [
+    "Input Method",
+    "Linguistics"
+  ],
+  "author": "Ngiox Khyen 2028 Project",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/nk2028/rime-utils/issues"
+  },
+  "homepage": "https://github.com/nk2028/rime-utils#readme",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
