@@ -1,5 +1,10 @@
 const fs = require('fs');
 
+/**
+ * Read a rime dictionary and get the pronunciations of words.
+ * @param {string} filePath Path to the rime dictionary.
+ * @returns {Map<string, Array<string>} A map object that maps a word to an array of pronunciations.
+ */
 function readRimeDict(filePath) {
   const lines = fs.readFileSync(filePath, { encoding: 'utf8' }).split('\n');
   const m = new Map();
